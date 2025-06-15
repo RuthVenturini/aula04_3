@@ -14,6 +14,8 @@ import folium
 PAGE_CONFIG = {"page_title":"Aplicação de Mapas","page_icon":":smiley:","layout":"centered"}
 st.set_page_config(**PAGE_CONFIG)
 
+tooltip = 'Clique aqui!'
+
 def main():
 	st.title("Mapa de Curitiba para rotas turísticas")
 	st.subheader("Baseado num caderno do Colab")
